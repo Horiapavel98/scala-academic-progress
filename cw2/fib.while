@@ -1,0 +1,13 @@
+write "Fib";
+read n;  
+minus1 := 0;
+minus2 := 1;
+while n > 0 do {
+       temp := minus2;
+       minus2 := minus1 + minus2;
+       minus1 := temp;
+       n := n - 1
+};
+write "Result";
+write minus2 
+

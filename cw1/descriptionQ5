@@ -1,0 +1,34 @@
+ALT(ALT(SEQ(SEQ(STAR(CFUN(RANGE(('a' to 'z').toSet ++ ('0' to '9').toSet ++ Set('.', '-')))),CFUN(CHAR('.'))),BETWEEN(CFUN(RANGE(('a' to 'z').toSet ++ Set('.'))),2,6)),BETWEEN(CFUN(RANGE(('a' to 'z').toSet ++ Set('.'))),0,4)),BETWEEN(CFUN(RANGE(('a' to 'z').toSet ++ Set('.'))),0,1))
+
+
+
+
+
+
+
+
+ALT(
+  ALT(
+      SEQ(
+          SEQ(
+              STAR(
+                  CFUN(RANGE(('a' to 'z').toSet ++ ('0' to '9').toSet ++ Set('.', '-')))
+                )
+              ,
+              CFUN(CHAR('.'))
+            )
+          ,
+          BETWEEN(
+            CFUN(RANGE(('a' to 'z').toSet ++ Set('.'))),2,6
+          )
+        )
+      ,
+      BETWEEN(
+        CFUN(RANGE(('a' to 'z').toSet ++ Set('.'))),0,4
+      )
+    )
+  ,
+  BETWEEN(
+    CFUN(RANGE(('a' to 'z').toSet ++ Set('.'))),0,1
+    )
+  )

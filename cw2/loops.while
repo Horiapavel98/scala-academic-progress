@@ -1,0 +1,14 @@
+start := 1000; 
+x := start;
+y := start;
+z := start;
+while 0 < x do {
+ while 0 < y do {
+  while 0 < z do { z := z - 1 };
+  z := start;
+  y := y - 1
+ };     
+ y := start;
+ x := x - 1
+}
+

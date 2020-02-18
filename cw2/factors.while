@@ -1,0 +1,14 @@
+// Find all factors of a given input number
+// by J.R. Cordy August 2005
+
+write "Input n please";
+read n;
+write "The factors of n are";
+f := 2;
+while n != 1 do {
+    while (n / f) * f == n do {
+        write f;
+        n := n / f
+    };
+    f := f + 1
+}

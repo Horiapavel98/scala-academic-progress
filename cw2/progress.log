@@ -1,0 +1,25 @@
+Question 1
+1.(tick)
+2.(tick)
+3.(tick)
+4.(tick)
+5.(tick)
+6.(tick)
+7.(tick)
+8.(tick)
+
+Question  2
+der and nullable for OPTIONAL and NTIMES
+
+Did add Rexp for OPTIONAL and NTIMES but not for the others(RANGE and PLUS - those were given).
+
+RANGE - (tick?)
+PLUS - (tick?)
+OPTIONAL - (tick)
+NTIMES - (tick)
+
+CFUN mkeps?
+
+CFUN inj?
+
+what do you use to infer the inj and the mkeps functions?

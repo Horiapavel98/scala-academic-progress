@@ -1,0 +1,15 @@
+// prints out prime numbers from
+// 2 to 100 (end)
+
+end := 100;
+n := 2;
+while (n < end) do {
+  f := 2;
+  tmp := 0;
+  while ((f < n / 2 + 1) && (tmp == 0)) do {
+    if ((n / f) * f == n) then  { tmp := 1 } else { skip };
+    f := f + 1
+  };
+  if (tmp == 0) then { write(n) } else { skip };
+  n  := n + 1
+}

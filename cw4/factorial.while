@@ -1,0 +1,9 @@
+write "Factorial";
+read n;
+x := 1;
+while n > 1 do {
+    x := x * n;
+    n := n - 1
+};
+write "Result";
+write x
